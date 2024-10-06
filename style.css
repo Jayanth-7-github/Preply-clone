@@ -135,12 +135,12 @@ main {
   padding: 50px;
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap !important;
   font-size: 17px;
-  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-family: Impact, "Haettenschweiler", "Arial Narrow Bold", sans-serif;
 }
 .english {
   display: flex;
-  flex-direction: row;
   justify-content: space-between;
   font-family: sans-serif;
   width: 30%;
@@ -188,8 +188,4 @@ main {
     display: flex;
   }
 }
-@media (min-width: 1200px) {
-  /* .text {
-    max-width: 40%;
-  } */
-}
+
