@@ -67,7 +67,6 @@ main {
 .text {
   font-size: 30px;
   width: 80% !important;
-  
 }
 
 .img1 {
@@ -129,21 +128,23 @@ main {
 .reviews {
   align-items: center;
 }
-.countrytutors > div {
-  border: 1px solid;
+.countrytutors {
   height: 100px;
   padding: 50px;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap !important;
+  flex-wrap: wrap;
   font-size: 17px;
   font-family: Impact, "Haettenschweiler", "Arial Narrow Bold", sans-serif;
+  margin-right: 10px;
 }
 .english {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-evenly;
   font-family: sans-serif;
   width: 30%;
+  height: 100%;
+  margin: 10px 10px;
   padding: 0px !important;
   align-items: center;
   border: 0.5px solid;
@@ -188,4 +189,3 @@ main {
     display: flex;
   }
 }
-
