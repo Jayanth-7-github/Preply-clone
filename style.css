@@ -67,6 +67,7 @@ main {
 .text {
   font-size: 30px;
   width: 80% !important;
+ 
 }
 
 .img1 {
@@ -114,6 +115,7 @@ main {
 .section1 {
   display: flex;
   justify-content: space-between;
+ 
   font-size: 25px;
   padding: 30px;
   padding-top: 50px;
@@ -124,9 +126,6 @@ main {
   align-items: center;
   width: 100px;
   border: 1px solid;
-}
-.reviews {
-  align-items: center;
 }
 .countrytutors {
   height: 100px;
@@ -141,6 +140,7 @@ main {
 .english {
   display: flex;
   justify-content: space-evenly;
+  justify-items:center ;
   font-family: sans-serif;
   width: 30%;
   height: 100%;
@@ -188,4 +188,25 @@ main {
   .leftcontainer {
     display: flex;
   }
+}
+.showmore>div {
+  margin: 20px 0px; 
+  text-align: left; 
+  display: flex;
+  align-items: center;
+  margin: 250px 90px;
+  font-size: 20px; 
+  border: 1px solid white;
+  width: 160px;
+  height: 80px;
+
+}
+.showmore>div:hover{
+ background-color: whitesmoke;
+  border-radius: 5px;
+}
+.showmoreword{
+  margin-left: 10px;
+
+ 
 }
