@@ -67,7 +67,6 @@ main {
 .text {
   font-size: 30px;
   width: 80% !important;
- 
 }
 
 .img1 {
@@ -139,7 +138,7 @@ main {
 .english {
   display: flex;
   justify-content: space-evenly;
-  justify-items:center ;
+  justify-items: center;
   font-family: sans-serif;
   width: 30%;
   height: 100%;
@@ -188,50 +187,49 @@ main {
     display: flex;
   }
 }
-.showmore>div {
-  margin: 20px 0px; 
-  text-align: left; 
+.showmore > div {
+  margin: 20px 0px;
+  text-align: left;
   display: flex;
   align-items: center;
   margin: 250px 90px;
-  font-size: 20px; 
+  font-size: 20px;
   border: 1px solid white;
   width: 160px;
   height: 80px;
-
 }
-.showmore>div:hover{
- background-color: whitesmoke;
+.showmore > div:hover {
+  background-color: whitesmoke;
   border-radius: 5px;
 }
-.showmoreword{
+.showmoreword {
   margin-left: 10px;
 }
-.tutorsforyou{
+.tutorsforyou {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-.tutorsheading{
+.tutorsheading {
   font-size: 50px;
 }
-.no-oftutors{
+.no-oftutors {
   font-size: 20px;
-  margin:30px 0px;
+  margin: 30px 0px;
 }
-.tutorteach{
+.tutorteach {
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.previous{
+.previous {
   position: relative;
   left: -150px;
 }
-.tutorimages{
+.tutorimages {
   display: flex;
 }
-.tutorimg1{
+.tutorimg1 {
   height: 300px;
   width: 400px;
   position: absolute;
@@ -239,45 +237,44 @@ main {
   top: 1760px;
   border-radius: 5px;
 }
-.tutorimg2{
+.tutorimg2 {
   height: 400px;
   width: 400px;
   left: 170px;
   position: absolute;
   top: 1710px;
   border-radius: 5px;
- 
 }
-.tutorimg3{
+.tutorimg3 {
   height: 500px;
   width: 400px;
   position: relative;
   left: 18px;
   border-radius: 5px;
 }
-.aboutteacher{
+.aboutteacher {
   position: relative;
-  left:120px;
+  left: 120px;
   /* border: 1px solid; */
   width: 30%;
   height: 150px;
 }
 
-.aboutteacher1{
+.aboutteacher1 {
   margin-bottom: 10px;
   font-size: 29px;
 }
-.aboutteacher2{
+.aboutteacher2 {
   margin-bottom: 10px;
 }
-.next{
+.next {
   position: relative;
-  left:250px ;
+  left: 250px;
 }
-.tutorbuttons{
+.tutorbuttons {
   align-items: center;
 }
-.tutorbutton1{
+.tutorbutton1 {
   border: 1px solid;
   position: relative;
   top: 230px;
@@ -290,10 +287,10 @@ main {
   align-items: center;
   border-radius: 4px;
 }
-.tutorbutton2{
+.tutorbutton2 {
   position: relative;
   border: 1px solid;
-  background:#3DDABE;
+  background: #3ddabe;
   top: 204px;
   right: 500px;
   width: 100px;
@@ -303,6 +300,21 @@ main {
   align-items: center;
   border-radius: 4px;
 }
-
-
-
+.preplymessage {
+  background-color: #ff7aac;
+  border: 1px solid;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Platform", "Platform-fallback", "Platform-fallback-android",
+    "Noto Sans", "NotoSans-fallback", "NotoSans-fallback-android", sans-serif;
+  text-align: center;
+  margin: 50px 0px;
+}
+.msg1 {
+  align-items: center;
+  font-size: 60px;
+  letter-spacing: -3px;
+}
