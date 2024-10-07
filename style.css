@@ -115,7 +115,6 @@ main {
 .section1 {
   display: flex;
   justify-content: space-between;
- 
   font-size: 25px;
   padding: 30px;
   padding-top: 50px;
@@ -207,6 +206,103 @@ main {
 }
 .showmoreword{
   margin-left: 10px;
-
+}
+.tutorsforyou{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tutorsheading{
+  font-size: 50px;
+}
+.no-oftutors{
+  font-size: 20px;
+  margin:30px 0px;
+}
+.tutorteach{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.previous{
+  position: relative;
+  left: -150px;
+}
+.tutorimages{
+  display: flex;
+}
+.tutorimg1{
+  height: 300px;
+  width: 400px;
+  position: absolute;
+  left: 130px;
+  top: 1760px;
+  border-radius: 5px;
+}
+.tutorimg2{
+  height: 400px;
+  width: 400px;
+  left: 170px;
+  position: absolute;
+  top: 1710px;
+  border-radius: 5px;
  
 }
+.tutorimg3{
+  height: 500px;
+  width: 400px;
+  position: relative;
+  left: 18px;
+  border-radius: 5px;
+}
+.aboutteacher{
+  position: relative;
+  left:120px;
+  /* border: 1px solid; */
+  width: 30%;
+  height: 150px;
+}
+
+.aboutteacher1{
+  margin-bottom: 10px;
+  font-size: 29px;
+}
+.aboutteacher2{
+  margin-bottom: 10px;
+}
+.next{
+  position: relative;
+  left:250px ;
+}
+.tutorbuttons{
+  align-items: center;
+}
+.tutorbutton1{
+  border: 1px solid;
+  position: relative;
+  top: 230px;
+  background-color: white;
+  right: 600px;
+  width: 70px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+.tutorbutton2{
+  position: relative;
+  border: 1px solid;
+  background:#3DDABE;
+  top: 204px;
+  right: 500px;
+  width: 100px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+}
+
+
+
