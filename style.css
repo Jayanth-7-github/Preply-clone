@@ -206,7 +206,7 @@ main {
 .showmoreword {
   margin-left: 10px;
 }
-.showmoreword >a{
+.showmoreword > a {
   color: black;
 }
 .tutorsforyou {
@@ -364,7 +364,7 @@ main {
   position: relative;
   right: 50px;
   bottom: 40px;
-  
+
   width: 500px;
 }
 .imgtext3 {
@@ -388,16 +388,76 @@ main {
   border-radius: 10px;
   background-color: black;
 }
-.imgbutton>p{
+.imgbutton > p {
   color: white;
 }
-.imgbutton1{
+.imgbutton1 {
   margin-left: 20px;
 }
-.imgclick{
+.imgclick {
   margin: 40px;
-  
+  margin-right: 140px;
 }
-.imgclick>a{
+.imgclick > a {
   color: black;
+}
+.imgclick:hover {
+  background-color: #028a711a;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 500px;
+  height: 55px;
+  right: 49px;
+  border-radius: 10px;
+}
+.source {
+  width: 890px;
+  height: 192px;
+padding-left: 20px;
+  margin-top: 150px;
+}
+.sourcetext {
+  font-size: 55px;
+  letter-spacing: -4px;
+}
+.sourcetext1_1 {
+  /* border: 1px solid; */
+  width: 530px;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  line-height: 25px;
+}
+.sourcetext1_2 {
+  /* border: 1px solid; */
+  width: 400px;
+  line-height: 25px;
+}
+.sourcebutton{
+  display: flex;
+  margin-top: 30px;
+}
+.sourcebutton1{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid;
+  margin-right: 20px;
+  width: 249px;
+  height: 56px;
+  border-radius: 10px;
+  background-color: #99C5FF;
+ 
+}
+.sourcebutton2{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid;
+  width: 249px;
+  height: 56px;
+  border-radius: 10px;
+}
+.sourceimg{
+  position: relative;
 }
