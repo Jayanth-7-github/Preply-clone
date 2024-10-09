@@ -101,6 +101,7 @@ main {
   width: 350px;
   height: 55px;
   background-color: black;
+  margin-top: 30px;
 }
 .getstartedword {
   color: white;
@@ -205,6 +206,9 @@ main {
 .showmoreword {
   margin-left: 10px;
 }
+.showmoreword >a{
+  color: black;
+}
 .tutorsforyou {
   display: flex;
   flex-direction: column;
@@ -302,7 +306,7 @@ main {
 }
 .preplymessage {
   background-color: #ff7aac;
-  border: 1px solid;
+  border: 1px solid #ff7aac;
   height: 400px;
   display: flex;
   justify-content: center;
@@ -317,4 +321,83 @@ main {
   align-items: center;
   font-size: 60px;
   letter-spacing: -3px;
+}
+.img-after-msg {
+  display: flex;
+}
+.img-after-msg1 {
+  position: relative;
+
+  border-radius: 10px;
+}
+.img-after-msg2 {
+  position: relative;
+  width: 40% !important;
+  right: 420px;
+}
+.becometutor {
+  border: 1px solid;
+  height: 100%;
+  margin: 10px 10px;
+  border-radius: 10px;
+  background-color: #3ddabe;
+}
+.imgtext {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  padding-left: 50px;
+  left: 600px;
+  top: 2800px;
+  font-family: "Figtree", "Figtree-fallback", "Figtree-fallback-android",
+    "Noto Sans", "NotoSans-fallback", "NotoSans-fallback-android", sans-serif;
+}
+.imgtext1 {
+  position: relative;
+  bottom: 70px;
+  font-size: 70px;
+  letter-spacing: -5px;
+}
+.imgtext2 {
+  position: relative;
+  right: 50px;
+  bottom: 40px;
+  
+  width: 500px;
+}
+.imgtext3 {
+  position: relative;
+  right: 35px;
+  bottom: 20px;
+  font-size: 20px;
+
+  width: 500px;
+  margin-top: 30px;
+}
+.imgbutton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border: 1px solid;
+  width: 500px;
+  height: 55px;
+  right: 49px;
+  border-radius: 10px;
+  background-color: black;
+}
+.imgbutton>p{
+  color: white;
+}
+.imgbutton1{
+  margin-left: 20px;
+}
+.imgclick{
+  margin: 40px;
+  
+}
+.imgclick>a{
+  color: black;
 }
