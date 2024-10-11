@@ -516,3 +516,20 @@ main {
   left: 1020px;
   bottom: 175px;
 }
+.last{
+  position: relative;
+  top: 500px;
+  margin: 0px 20px;
+  
+}
+
+.Lheading{
+  margin-top: 40px;
+}
+.ls{
+  display: flex;
+  margin-top: 20px;
+}
+.ls1{
+ 
+}
