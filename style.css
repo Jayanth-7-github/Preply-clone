@@ -116,8 +116,10 @@ main {
   margin-top: 30px;
 }
 
-.getstartedword {
+.getstartedword>a {
+  display: flex;
   color: white;
+  text-decoration: none;
   font-size: 20px;
   margin-right: 10px;
 }
@@ -459,8 +461,9 @@ main {
   background-color: black;
 }
 
-.imgbutton>p {
+.imgbutton>a {
   color: white;
+  text-decoration: none;
 }
 
 .imgbutton1 {
@@ -515,8 +518,10 @@ main {
 
 .sourcebutton {
   display: flex;
+  
   margin-top: 30px;
 }
+
 
 .sourcebutton1 {
   display: flex;
@@ -527,9 +532,14 @@ main {
   width: 249px;
   height: 56px;
   border-radius: 10px;
+  
   background-color: #99c5ff;
 }
+.sourcebutton1>a{
+  color: #000000;
+  text-decoration: none;
 
+}
 .sourcebutton2 {
   display: flex;
   justify-content: center;
@@ -539,7 +549,11 @@ main {
   height: 56px;
   border-radius: 10px;
 }
+.sourcebutton2>a{
+  color: #000000;
+  text-decoration: none;
 
+}
 .sourceimg {
   /* display: flex; */
   position: absolute;
