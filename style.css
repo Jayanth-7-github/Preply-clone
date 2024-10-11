@@ -516,20 +516,78 @@ main {
   left: 1020px;
   bottom: 175px;
 }
-.last{
+.last {
   position: relative;
   top: 500px;
   margin: 0px 20px;
-  
 }
 
-.Lheading{
+.Lheading {
   margin-top: 40px;
 }
-.ls{
+.ls {
   display: flex;
   margin-top: 20px;
+  font-family: "Platform", "Platform-fallback", "Platform-fallback-android",
+    "Noto Sans", "NotoSans-fallback", "NotoSans-fallback-android", sans-serif;
 }
-.ls1{
- 
+.ls1 {
+  margin-right: 0px;
+}
+.ls1 > h4 {
+  margin-bottom: 10px;
+
+  width: 300px;
+}
+.ls1 > a {
+  color: black;
+}
+.ls2 {
+  margin-right: 30px;
+}
+.ls2 > h4 {
+  margin-bottom: 10px;
+}
+.ls2 > a {
+  color: black;
+}
+.ls3 {
+  margin-right: 30px;
+}
+.ls3 > h4 {
+  margin-bottom: 10px;
+}
+.ls3 > a {
+  color: black;
+}
+.ls4 {
+  margin-right: 30px;
+}
+.ls4 > h4 {
+  margin-bottom: 10px;
+}
+.ls4 > a {
+  color: black;
+}
+.linkl{
+  display: flex;
+  /* border: 1px solid; */
+  width: 300px;
+  height: 20px;
+  margin-top: 10px;
+}
+.link4{
+  display: flex;
+  /* border: 1px solid; */
+  width: 280px;
+  height: 20px;
+  margin-top: 10px;
+}
+.aboutpreply{
+  background-color: #121117;
+  position: relative;
+  top: 700px;
+}
+.abouttext{
+  color: white;
 }
