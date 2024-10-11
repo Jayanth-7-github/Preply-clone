@@ -14,13 +14,16 @@ nav {
   justify-content: space-between;
   padding: 10px;
 }
+
 .names_nav {
   display: flex;
   justify-content: space-between;
 }
+
 main {
   background-color: #ff7aac;
 }
+
 .div_start {
   border: 1px solid #ff7aac;
   width: 50%;
@@ -28,6 +31,7 @@ main {
   justify-content: space-between;
   font-family: "Poppins";
 }
+
 .menu {
   border: 1px solid #ff7aac;
   display: flex;
@@ -36,12 +40,14 @@ main {
   width: 30%;
   padding: 5px;
 }
+
 .names_nav {
   align-items: center;
   /* margin-right: 40px;
     min-width: 50px;
     width: 50%; */
 }
+
 .login {
   display: flex;
   flex-direction: row;
@@ -52,18 +58,22 @@ main {
   height: 30px;
   border-radius: 5px;
 }
+
 .loginlogo {
   margin-right: 4px;
 }
+
 .loginword {
   font-family: "Figtree", "Figtree-fallback", "Figtree-fallback-android",
     "Noto Sans", "NotoSans-fallback", "NotoSans-fallback-android", sans-serif;
   font-size: small;
 }
+
 .page {
   display: flex;
   padding: 70px;
 }
+
 .text {
   font-size: 30px;
   width: 80% !important;
@@ -77,6 +87,7 @@ main {
   right: 30px;
   border-radius: 5px;
 }
+
 .img2 {
   /* width: 300px; */
   height: 280px;
@@ -92,6 +103,7 @@ main {
   right: 70px;
   border-radius: 5px;
 }
+
 .get_started {
   display: flex;
   justify-content: center;
@@ -103,11 +115,13 @@ main {
   background-color: black;
   margin-top: 30px;
 }
+
 .getstartedword {
   color: white;
   font-size: 20px;
   margin-right: 10px;
 }
+
 .rightarrow {
   color: aliceblue;
 }
@@ -119,6 +133,7 @@ main {
   padding: 30px;
   padding-top: 50px;
 }
+
 .reviews {
   display: flex;
   flex-direction: column;
@@ -127,10 +142,12 @@ main {
     "Noto Sans", "NotoSans-fallback", "NotoSans-fallback-android", sans-serif;
   font-size: 30px;
 }
-.reviews > div {
+
+.reviews>div {
   font-size: 15px;
   color: rgb(72, 72, 72);
 }
+
 .section2 {
   display: flex;
   flex-direction: column;
@@ -138,6 +155,7 @@ main {
   width: 100px;
   border: 1px solid;
 }
+
 .countrytutors {
   height: 100px;
   padding: 50px;
@@ -148,6 +166,7 @@ main {
   font-family: Impact, "Haettenschweiler", "Arial Narrow Bold", sans-serif;
   margin-right: 10px;
 }
+
 .english {
   display: flex;
   justify-content: space-evenly;
@@ -161,15 +180,19 @@ main {
   border: 0.5px solid;
   border-radius: 5px;
 }
+
 .logo {
   width: 150px;
 }
+
 @media (max-width: 1000px) {
+
   /* text */
   .text {
     font-size: medium;
     width: 100%;
   }
+
   .page {
     display: flex;
     flex-direction: column-reverse;
@@ -179,28 +202,34 @@ main {
   .image {
     margin: 0px 40px;
   }
+
   .img {
     position: relative;
   }
+
   .img1 {
     /* position: absolute; */
     left: 15%;
   }
+
   .img2 {
     /* position: absolute; */
     left: 10%;
   }
 }
+
 @media (min-width: 1001px) {
   .page {
     display: flex;
     flex-direction: row;
   }
+
   .leftcontainer {
     display: flex;
   }
 }
-.showmore > div {
+
+.showmore>div {
   margin: 20px 0px;
   text-align: left;
   display: flex;
@@ -211,40 +240,50 @@ main {
   width: 160px;
   height: 80px;
 }
-.showmore > div:hover {
+
+.showmore>div:hover {
   background-color: whitesmoke;
   border-radius: 5px;
 }
+
 .showmoreword {
   margin-left: 10px;
 }
-.showmoreword > a {
+
+.showmoreword>a {
   color: black;
 }
+
 .tutorsforyou {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
+
 .tutorsheading {
   font-size: 50px;
 }
+
 .no-oftutors {
   font-size: 20px;
   margin: 30px 0px;
 }
+
 .tutorteach {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .previous {
   position: relative;
   left: -150px;
 }
+
 .tutorimages {
   display: flex;
 }
+
 .tutorimg1 {
   height: 300px;
   width: 400px;
@@ -253,6 +292,7 @@ main {
   top: 1760px;
   border-radius: 5px;
 }
+
 .tutorimg2 {
   height: 400px;
   width: 400px;
@@ -261,6 +301,7 @@ main {
   top: 1710px;
   border-radius: 5px;
 }
+
 .tutorimg3 {
   height: 500px;
   width: 400px;
@@ -268,6 +309,7 @@ main {
   left: 18px;
   border-radius: 5px;
 }
+
 .aboutteacher {
   position: relative;
   left: 120px;
@@ -280,16 +322,20 @@ main {
   margin-bottom: 10px;
   font-size: 29px;
 }
+
 .aboutteacher2 {
   margin-bottom: 10px;
 }
+
 .next {
   position: relative;
   left: 250px;
 }
+
 .tutorbuttons {
   align-items: center;
 }
+
 .tutorbutton1 {
   border: 1px solid;
   position: relative;
@@ -303,6 +349,7 @@ main {
   align-items: center;
   border-radius: 4px;
 }
+
 .tutorbutton2 {
   position: relative;
   border: 1px solid;
@@ -316,6 +363,7 @@ main {
   align-items: center;
   border-radius: 4px;
 }
+
 .preplymessage {
   background-color: #ff7aac;
   border: 1px solid #ff7aac;
@@ -329,24 +377,29 @@ main {
   text-align: center;
   margin: 50px 0px;
 }
+
 .msg1 {
   align-items: center;
   font-size: 60px;
   letter-spacing: -3px;
 }
+
 .img-after-msg {
   display: flex;
 }
+
 .img-after-msg1 {
   position: relative;
 
   border-radius: 10px;
 }
+
 .img-after-msg2 {
   position: relative;
   width: 40% !important;
   right: 420px;
 }
+
 .becometutor {
   border: 1px solid;
   height: 100%;
@@ -354,6 +407,7 @@ main {
   border-radius: 10px;
   background-color: #3ddabe;
 }
+
 .imgtext {
   display: flex;
   flex-direction: column;
@@ -366,12 +420,14 @@ main {
   font-family: "Figtree", "Figtree-fallback", "Figtree-fallback-android",
     "Noto Sans", "NotoSans-fallback", "NotoSans-fallback-android", sans-serif;
 }
+
 .imgtext1 {
   position: relative;
   bottom: 70px;
   font-size: 70px;
   letter-spacing: -5px;
 }
+
 .imgtext2 {
   position: relative;
   right: 50px;
@@ -379,6 +435,7 @@ main {
 
   width: 500px;
 }
+
 .imgtext3 {
   position: relative;
   right: 35px;
@@ -388,6 +445,7 @@ main {
   width: 500px;
   margin-top: 30px;
 }
+
 .imgbutton {
   display: flex;
   justify-content: center;
@@ -400,19 +458,24 @@ main {
   border-radius: 10px;
   background-color: black;
 }
-.imgbutton > p {
+
+.imgbutton>p {
   color: white;
 }
+
 .imgbutton1 {
   margin-left: 20px;
 }
+
 .imgclick {
   margin: 40px;
   margin-right: 140px;
 }
-.imgclick > a {
+
+.imgclick>a {
   color: black;
 }
+
 .imgclick:hover {
   background-color: #028a711a;
   display: flex;
@@ -423,16 +486,19 @@ main {
   right: 49px;
   border-radius: 10px;
 }
+
 .source {
   width: 890px;
   height: 192px;
   padding-left: 20px;
   margin-top: 150px;
 }
+
 .sourcetext {
   font-size: 55px;
   letter-spacing: -4px;
 }
+
 .sourcetext1_1 {
   /* border: 1px solid; */
   width: 530px;
@@ -440,15 +506,18 @@ main {
   margin-top: 30px;
   line-height: 25px;
 }
+
 .sourcetext1_2 {
   /* border: 1px solid; */
   width: 400px;
   line-height: 25px;
 }
+
 .sourcebutton {
   display: flex;
   margin-top: 30px;
 }
+
 .sourcebutton1 {
   display: flex;
   justify-content: center;
@@ -460,6 +529,7 @@ main {
   border-radius: 10px;
   background-color: #99c5ff;
 }
+
 .sourcebutton2 {
   display: flex;
   justify-content: center;
@@ -469,6 +539,7 @@ main {
   height: 56px;
   border-radius: 10px;
 }
+
 .sourceimg {
   /* display: flex; */
   position: absolute;
@@ -490,6 +561,7 @@ main {
   bottom: 205px;
   left: 600px;
 }
+
 .sourcebuttext2 {
   border: 1.5px solid;
   width: 70.53px;
@@ -503,6 +575,7 @@ main {
   left: 799px;
   bottom: 104px;
 }
+
 .sourcebuttext3 {
   border: 1.5px solid;
   width: 84.13px;
@@ -516,6 +589,7 @@ main {
   left: 1020px;
   bottom: 175px;
 }
+
 .last {
   position: relative;
   top: 500px;
@@ -525,69 +599,172 @@ main {
 .Lheading {
   margin-top: 40px;
 }
+
 .ls {
   display: flex;
   margin-top: 20px;
   font-family: "Platform", "Platform-fallback", "Platform-fallback-android",
     "Noto Sans", "NotoSans-fallback", "NotoSans-fallback-android", sans-serif;
 }
+
 .ls1 {
   margin-right: 0px;
 }
-.ls1 > h4 {
+
+.ls1>h4 {
   margin-bottom: 10px;
 
   width: 300px;
 }
-.ls1 > a {
+
+.ls1>a {
   color: black;
 }
+
 .ls2 {
   margin-right: 30px;
 }
-.ls2 > h4 {
+
+.ls2>h4 {
   margin-bottom: 10px;
 }
-.ls2 > a {
+
+.ls2>a {
   color: black;
 }
+
 .ls3 {
   margin-right: 30px;
 }
-.ls3 > h4 {
+
+.ls3>h4 {
   margin-bottom: 10px;
 }
-.ls3 > a {
+
+.ls3>a {
   color: black;
 }
+
 .ls4 {
   margin-right: 30px;
 }
-.ls4 > h4 {
+
+.ls4>h4 {
   margin-bottom: 10px;
 }
-.ls4 > a {
+
+.ls4>a {
   color: black;
 }
-.linkl{
+
+.linkl {
   display: flex;
   /* border: 1px solid; */
   width: 300px;
   height: 20px;
   margin-top: 10px;
 }
-.link4{
+
+.link4 {
   display: flex;
   /* border: 1px solid; */
   width: 280px;
   height: 20px;
   margin-top: 10px;
 }
-.aboutpreply{
-  background-color: #121117;
+
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
   position: relative;
   top: 700px;
-}
-.abouttext{
+  padding: 40px;
+  background-color: #000000;
   color: white;
+  flex-wrap: wrap;
+}
+
+.footer-section {
+
+  flex: 1;
+  min-width: 200px;
+  margin: 10px;
+}
+
+
+
+.footer-section h3 {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  color: #fff;
+}
+
+.footer-section ul {
+  list-style: none;
+}
+
+.footer-section ul li {
+  margin-bottom: 8px;
+}
+
+.footer-section ul li a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+.footer-section ul li a:hover {
+  color: #ff7aac;
+}
+
+.social-links {
+  display: flex;
+  gap: 15px;
+  color: #fff;
+  flex-direction: column;
+}
+
+.social-icon {
+  display: flex;
+  color: #fff;
+  text-decoration: none;
+  align-items: center;
+
+}
+.social-icon:hover{
+  color: #ff7aac;
+}
+.social-icon img {
+  width: 25px;
+  height: 25px;
+  transition: transform 0.3s ease;
+  color: #fff;
+}
+
+.social-icon img:hover {
+  transform: scale(1.1);
+}
+
+.footer-bottom {
+  position: relative;
+  top: 680px;
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #000000;
+  width: 100%;
+}
+
+.footer-bottom p {
+  color: #aaa;
+  font-size: 14px;
+}
+
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+  }
 }
